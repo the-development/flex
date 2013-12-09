@@ -5,6 +5,8 @@ Flex is a responsive, flexible, [Jekyll](http://jekyllrb.com) theme.
 
 The theme is based on the website [The Development](http://thedevelopment.co).
 
+View a demo website [here](http://jeffxmn.github.io/flex)
+
 Installation
 ===
 To use this theme, you would do so like any other Jekyll setup:
