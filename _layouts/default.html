@@ -7,13 +7,13 @@
       <meta name="viewport" content="width=device-width">
 
       <!-- syntax highlighting CSS -->
-      <link rel="stylesheet" href="/css/syntax.css">
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
 
       <!-- Custom CSS -->
-      <link rel="stylesheet" href="/css/main.css">
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 
       <!-- Responsive CSS -->
-      <link rel="stylesheet" href="/css/responsive.css">
+      <link rel="stylesheet" href="{{ site.baseurl }}/css/responsive.css">
 
       <!-- Google Fonts -->
       <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
@@ -23,14 +23,14 @@
     <div class="site">
       <div class="sidebar" id="sidebar">
         <div class="header">
-          <h1 class="title"><a href="/"><img id="logo" src="/images/logo.png"></a></h1>
+          <h1 class="title"><a href="{{ site.baseurl }}"><img id="logo" src="{{ site.baseurl }}/images/logo.png"></a></h1>
           <span class="tagline">A responsive Jekyll theme</span>
         </div>
         <div class="posts">
           <ul class="posts-list">
             {% for post in site.posts %}
               <li class="post-link">
-                <a class="post-title" href="{{ post.url }}">
+                <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
                   <span class="post-date">{{ post.date | date_to_string }}</span>
                   {{ post.title }}
                 </a>
@@ -50,6 +50,6 @@
         {{ content }}
 
     </div>
-    <script src="/scripts/responsive.js" type="text/javascript"></script>
+    <script src="{{ site.baseurl }}/scripts/responsive.js" type="text/javascript"></script>
   </body>
 </html>
