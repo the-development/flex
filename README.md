@@ -10,13 +10,23 @@ Installation
 To use this theme, you would do so like any other Jekyll setup:
 
 1. Install Jekyll: `gem install jekyll`
-2. Fork this repository
+2. Fork this repository to your machine
 3. cd to the forked directory and run `jekyll serve --watch`
+4. Celebrate and dance.
 
 Contributions
 ===
 
-Coming soon!
+In general, there are no strict rules for contributing, only that your code is clean and well structured.
+
+For bugs:
+- To merge a fix, you can simply open a pull request.
+- To report one that is not yet fixed, open an issue.
+
+Feature requests:
+- **Always** open an issue first before implementing and proposing a new feature. This is only so I can make sure the theme doesn't become bloated with too many features.
+
+If in doubt, you can always ask me on Twitter: [@jeffxmn](https://twitter.com/jeffxmn)
 
 License
 ===
