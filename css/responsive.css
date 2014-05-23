@@ -1,3 +1,9 @@
+@media (max-width:3000px) {
+  #cover-photo {
+    max-width: 95%;
+  }
+}
+
 @media (max-width:1309px) {
   #cover-photo {
     max-width: 95%;
