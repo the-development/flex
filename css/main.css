@@ -78,7 +78,6 @@ a:hover {
 .site {
   height: 100%;
   width: 100%;
-  line-height: 1.25em;
 }
 
 .title {
@@ -92,7 +91,6 @@ a:hover {
   text-align: center;
   margin-top: 0.5em;
   display: block;
-
 }
 
 .posts {
@@ -137,6 +135,7 @@ a:hover {
   margin-bottom: 0.35em;
   font-size: 3.5em;
   text-transform: uppercase;
+  line-height: 1.1;
 }
 
 .post {
