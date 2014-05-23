@@ -1,3 +1,8 @@
-name: Flex
+name: Darwin Wu
 markdown: redcarpet
-pygments: true
+highlighter: pygments
+permalink: /:title
+
+tagline: Nothing is forbidden. Everything is permitted.
+
+GitHub: dwaxe

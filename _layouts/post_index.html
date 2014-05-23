@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="content" id="home">
+  <div id="sidebar-button">
+    <img src="/images/sidebar-button.png">
+  </div>
+  <div id="post-info">
+    <div id="cover-photo-container">
+      <img id="cover-photo" src="/images/post_index.jpg">
+    </div>
+    <div id="info-container">
+      <h1 id="title">Personal Website, Public Ridicule</h1>
+    </div>
+  </div>
+
+  <div class="post">
+
+    <div class="posts">
+      <ul class="posts-list">
+        {% for post in site.posts %}
+          <a class="post-title" href="{{ post.url }}">
+            <span class="post-date">{{ post.date | date: '%B %-d, %Y' }}</span>
+            {{ post.title }}
+          </a>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+  <div class="colophon">
+    <p>
+      <span id="social">Find me on <a href="http://github.com/{{ site.GitHub }}">GitHub</a>!</span>
+    </p>
+  </div>
+</div>
