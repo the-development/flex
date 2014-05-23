@@ -1,6 +1,7 @@
 name: Darwin Wu
 markdown: redcarpet
 highlighter: pygments
+permalink: /:title
 
 tagline: Darwin Wu
 
