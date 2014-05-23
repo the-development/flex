@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Home
 ---
 
 {% assign page = site.posts.first %}
