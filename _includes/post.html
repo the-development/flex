@@ -10,7 +10,7 @@
     {% endif %}
     <div id="info-container">
       <h1 id="title">{{ page.title }}</h1>
-      <span id="date">{{ page.date | date_to_string }}</a>
+      {% if page.date %}<span id="date">{{ page.date | date: '%B %-d, %Y' }}</a>{% endif %}
     </div>
   </div>
 
@@ -19,8 +19,8 @@
   </div>
   <div class="colophon">
     <p>
-      <span id="pub-date">Published on {{ page.date | date_to_string }}</span> <span class="separator">&bull;</span>
-      <span id="social">Find me on <a href="">Twitter</a>!</span>
+      {% if page.date %}<span id="pub-date">Published on {{ page.date | date: '%B %-d, %Y'  }}</span> <span class="separator">&bull;</span>{% endif %}
+      <span id="social">Find me on <a href="">GitHub</a>!</span>
     </p>
   </div>
 </div>

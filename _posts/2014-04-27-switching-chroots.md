@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Switching Chroots Shortcut"
-category: post
+category: posts
 tags: [crouton]
 date:   2014-04-28 00:35:00
 ---

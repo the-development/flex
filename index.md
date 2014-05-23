@@ -1,7 +1,5 @@
 ---
-layout: home
+layout: post
 ---
 
-{% assign page = site.posts.first %}
-{% assign content = page.content %}
-{% include post.html %}
+This is not quite a triumph

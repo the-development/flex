@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: default
 ---
 <div class="content" id="home">
   <div id="sidebar-button">
@@ -10,7 +10,7 @@ layout: blog
       <img id="cover-photo" src="/images/post_index.jpg">
     </div>
     <div id="info-container">
-      <h1 id="title">Archive</h1>
+      <h1 id="title">Personal Website, Public Ridicule</h1>
     </div>
   </div>
 
@@ -20,7 +20,7 @@ layout: blog
       <ul class="posts-list">
         {% for post in site.posts %}
           <a class="post-title" href="{{ post.url }}">
-            <span class="post-date">{{ post.date | date_to_string }}</span>
+            <span class="post-date">{{ post.date | date: '%B %-d, %Y' }}</span>
             {{ post.title }}
           </a>
         {% endfor %}

@@ -142,10 +142,10 @@ a:hover {
   line-height: 24px;
   max-width: 725px;
   clear: both;
+  margin-top: 1.25em;
 }
 
 .post h2 {
-  margin-top: 1.25em;
   margin-left: -0.5em;
   margin-bottom: 1.25em;
 }
