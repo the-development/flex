@@ -1,12 +1,10 @@
 #Software
----
+
 ##Flex
----
 
 Forked from [Flex](https://github.com/the-development/flex)
 
 ##Author
----
 
 ####Jeff Martin
 
@@ -15,8 +13,6 @@ Forked from [Flex](https://github.com/the-development/flex)
 * [https://github.com/the-development](https://github.com/the-development)
 
 
-
 ##License
----
 
 Open sourced under the [MIT license](https://github.com/Pheonnexx/pheonnexx.github.io/blob/master/LICENSE).
