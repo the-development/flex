@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About Me
-cover: maroc_pic.jpg
+cover: maroc.jpg
 date:   2016-08-24 04:00:00 -0800
 categories: posts
 ---
