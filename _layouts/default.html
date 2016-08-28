@@ -40,12 +40,16 @@
             {% endfor %}
           </ul>
 		  <ul class="posts-list">
-			{% assign about = site.index %}
-			<li class="post-link">
-                <a class="post-title" href="{{ about.url | prepend: site.baseurl }}">
-                  {{ about.title }}
-                </a>
-            </li>
+			{% assign pages_list = site.pages %}
+			{% for page in pages_list %}
+				{% if page.title == "About Me" %}
+					<li class="post-link">
+						<a class="post-title" href="{{ page.url | prepend: site.baseurl }}">
+						{{ page.title }}
+						</a>
+					</li>
+				{% endif %}	
+			{% endfor %}	
 		  </ul>
         </div>
         <div class="footer">
