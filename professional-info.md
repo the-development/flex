@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Professional Info
 cover: maroc.jpg
 date:   2016-08-24 04:00:00 -0800

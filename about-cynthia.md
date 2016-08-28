@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: About Me
 cover: maroc.jpg
 date:   2016-08-24 04:00:00 -0800
