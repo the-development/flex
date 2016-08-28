@@ -18,4 +18,4 @@ Cynthia Vint has a background in Middle Eastern Studies, Arabic and Spanish dial
 
 ## How to Use this Site
 
-Blogs and personal information and updates will be added periodically. Please contact Cynthia to request information about her past and current projects, report issues with the site, or ask what she's doing this weekend.
+Blogs, personal information and updates will be added periodically. Please contact Cynthia to request information about her past and current projects, report issues with the site, or ask what she's doing this weekend.
