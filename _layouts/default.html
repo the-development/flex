@@ -28,12 +28,17 @@
         </div>
         <div class="posts">
           <ul class="posts-list">
-            {% assign pages_list = site.pages %}
-			{% for node in pages_list %}
-				{% if node.layout == "page" %}
-					<a class="sidebar" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
-				{% endif %}
-			{% endfor %}
+			{% assign pages_list = site.pages %}
+            {% for node in pages_list %}
+			{% if node.layout == "page" %}
+              <li class="post-link">
+                <a class="post-title" href="{{ post.url }}">
+                  <span class="post-date">{{ post.date | date_to_string }}</span>
+                  {{ post.title }}
+                </a>
+              </li>
+			{% endif %}
+            {% endfor %}
           </ul>
         </div>
         <div class="footer">
