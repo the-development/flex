@@ -32,7 +32,7 @@
             {% for node in pages_list %}
 			{% if node.layout == "page" %}
               <li class="post-link">
-                <a class="post-title" href="{{ node.url | prepend: site.baseurl }">
+                <a class="post-title" href="{{ node.url | prepend: site.baseurl }}">
                   {{ node.title }}
                 </a>
               </li>
