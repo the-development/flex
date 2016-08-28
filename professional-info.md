@@ -34,7 +34,7 @@ Researched social media activity of online groups primarily Arabic speaking and 
 
 #### Boston University, 2015 - 2016 
 
-MS in Computer Information Systems 
+MS in Computer Information Systems
 
 Concentration in Data Analytics 
 
