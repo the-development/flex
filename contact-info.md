@@ -8,6 +8,6 @@ categories: posts
 
 Email: cvint13@live.com
 
-Phone: Email me if you want it.
+Phone: (404) 977-9664
 
-Facebook: Call me if you want it.
+[LinkedIn](https://www.linkedin.com/in/cynthia-vint968a1a63)
