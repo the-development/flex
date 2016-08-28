@@ -32,6 +32,7 @@
 			{% for post in posts_list %}
 				<li class="post-link">
 					<a class="post-title" href="{{ post.url | prepend: site.baseurl }}">
+						<span class="post-date">{{ post.date | date_to_string }}</span>
 						{{ post.title }}
 					</a>
 				</li>
