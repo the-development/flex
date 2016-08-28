@@ -39,6 +39,14 @@
 			{% endif %}
             {% endfor %}
           </ul>
+		  <ul class="posts-list">
+			{% assign about = site.pages.index.md %}
+			<li class="post-link">
+                <a class="post-title" href="{{ about.url | prepend: site.baseurl }}">
+                  {{ about.title }}
+                </a>
+            </li>
+		  </ul>
         </div>
         <div class="footer">
           <span id="footer-links">
