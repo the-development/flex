@@ -32,7 +32,7 @@
             {% for node in pages_list %}
 			{% if node.layout == "page" %}
               <li class="post-link">
-                <a class="post-title" href="{{ post.url }}">
+                <a class="post-title" href="{{ node.url }}">
                   {{ node.title }}
                 </a>
               </li>
