@@ -40,7 +40,7 @@
             {% endfor %}
           </ul>
 		  <ul class="posts-list">
-			{% assign about = site.pages.index %}
+			{% assign about = site.index %}
 			<li class="post-link">
                 <a class="post-title" href="{{ about.url | prepend: site.baseurl }}">
                   {{ about.title }}
