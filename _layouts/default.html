@@ -27,18 +27,6 @@
           <span class="tagline">Cynthia Vint: The Website</span>
         </div>
         <div class="posts">
-          <ul class="posts-list">
-			{% assign pages_list = site.pages %}
-            {% for node in pages_list %}
-			{% if node.layout == "page" %}
-              <li class="post-link">
-                <a class="post-title" href="{{ node.url | prepend: site.baseurl }}">
-                  {{ node.title }}
-                </a>
-              </li>
-			{% endif %}
-            {% endfor %}
-          </ul>
 		  <ul class="posts-list">
 			{% assign pages_list = site.pages %}
 			{% for page in pages_list %}
@@ -49,7 +37,27 @@
 						</a>
 					</li>
 				{% endif %}	
-			{% endfor %}	
+			{% endfor %}
+				
+			{% for page in pages_list %}
+				{% if page.title == "Professional Info" %}
+					<li class="post-link">
+						<a class="post-title" href="{{ page.url | prepend: site.baseurl }}">
+						{{ page.title }}
+						</a>
+					</li>
+				{% endif %}	
+			{% endfor %}
+			
+			{% for page in pages_list %}
+				{% if page.title == "Contact Me" %}
+					<li class="post-link">
+						<a class="post-title" href="{{ page.url | prepend: site.baseurl }}">
+						{{ page.title }}
+						</a>
+					</li>
+				{% endif %}	
+			{% endfor %}
 		  </ul>
         </div>
         <div class="footer">
