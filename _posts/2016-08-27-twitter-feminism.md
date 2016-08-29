@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Feminism Attitude Analysis of Twitter Data
-cover: maroc.jpg
+cover: feminism-295245_1280.png
 date:   2016-08-24 04:00:00 -0800
 categories: posts
 ---
