@@ -10,7 +10,7 @@ I was recently approached to develop a 'Semantic Search' tool, in which you coul
 
 I explained to my colleague the basics of matching texts, quantifying term frequencies, how you calculate distances between documents, etc., and he responded, 'But do you know about anything that can capture the *meaning* of a sentence, more of a *semantic search*?' I hadn't heard this phrase before, and I was intrigued. After looking into it, it turns out that there are entire companies out there that provide this Semantic Search software to HR departments, and it is becoming an essential part of finding good candidates.
 
-There are a lot of companies out there now providing a matching tool, in which you input a job description and it returns and ranks matches from your database of candidate resumes. Companies like Monster are now offering 'Semantic Search' as a service, supposedly using Artificial Intelligence to make the best matches on your job descriptions. I found a great [article](http://booleanblackbelt.com/2012/01/semantic-search-explained-for-sourcing-and-recruiting/) on what 'Semantic Search' really means, and if it's really worth your money.
+There are a lot of companies now providing a matching tool, in which you input a job description and it returns and ranks matches from your database of candidate resumes. Companies like Monster are now offering 'Semantic Search' as a service, supposedly using Artificial Intelligence to make the best matches on your job descriptions. I found a great [article](http://booleanblackbelt.com/2012/01/semantic-search-explained-for-sourcing-and-recruiting/) on what 'Semantic Search' really means, and if it's really worth your money.
 
 Below are the major claims about these types of services:
 
