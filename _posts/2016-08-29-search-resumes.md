@@ -6,11 +6,28 @@ date:   2016-08-29 01:00:00 -0800
 categories: posts
 ---
 
-There are a lot of companies out there now providing a matching tool, in which you input a job description and it returns and ranks matches from your database of candidate resumes. I was investigating this topic, and decided to look into a simple method for how it could be done. Who needs to pay for a monthly service if they can write up a quick program? 
+I was recently approached to develop a 'Semantic Search' tool, in which you could input a list of resumes and a job description, and the resumes would be ranked by relevance. I immediately answered, 'Sure, no problem!' This seemed like such a simple task, because rather than a typical search engine that takes in a single phrase and has to make huge assumptions about what the user is actually looking for, this program would take in a lengthy, concise 'search query' of sorts that is full of key words essential to a successful resume. 
+
+I explained to my colleague the basics of matching texts, quantifying term frequencies, how you calculate distances between documents, etc., and he responded, 'But do you know about anything that can capture the *meaning* of a sentence, more of a *semantic search*? I hadn't heard this phrase before, and I was intrigued. After looking into it, it turns out that there are entire companies out there that provide this Semantic Search software to HR departments, and it is becoming an essential part of finding good candidates.
+
+There are a lot of companies out there now providing a matching tool, in which you input a job description and it returns and ranks matches from your database of candidate resumes. Companies like Monster are now offering 'Semantic Search' as a service, supposedly using Artificial Intelligence to make the best matches on your job descriptions. I found a great [article](http://booleanblackbelt.com/2012/01/semantic-search-explained-for-sourcing-and-recruiting/) on what 'Semantic Search' really means, and if it's really worth your money.
+
+Below are the major claims about these types of services:
+
+1. They go beyond exact matches. This includes:
+	- Fuzzy String Matching
+	- Synonyms and related terms
+	- Contextual Analysis
+2. Machine Learning and Pattern Matching
+	- Clustering of Resumes
+
+This all sounds really awesome. However, I am not sure that it provides a huge payoff. First of all, all of these methods you see above are already prepackaged and ready to use in a package in just about every respectable programming language out there. If you assigned the task of developing this tool to a Summer intern, you already got your payoff. Second of all, Machine Learning methods in the arena of text data are hard for all of the reasons that you don't find in a corpus of clean, edited, professional, non-flowery documents. Job descriptions and resumes don't have sarcasm or emojis. And you can pretty well guarantee that if you cluster your resumes, they will probably nicely align with the corresponding positions that the candidates are applying for. It's nice to have a repository of synonyms, but I've certainly noticed that job descriptions call for very specific technical skills and background. If you want a Python developer, you want to see 'Python' in their resume. As for the few situations where this isn't the case, it might not be worth a monthly service fee to push the rank of that occasional, unlikely applicant by 2 slots.
+
+Nevertheless, I was investigating this topic to see about this newly found project, and decided to look into a simple method for how it could be done. Who needs to pay for a monthly service if they can write up a quick program? I wouldn't recommend a cheap solution like this for a large company with thousands of resumes to sift through, but you don't need anything super advanced for a small corpus. 
 
 # Exploring Data and Methods
 
-This notebook consists of an exploratory analysis of expected data to be input into the final resume search system.
+This notebook consists of an exploratory analysis of expected data to be input into the final resume search system. While I did not include code for fuzzy string matching, synonyms and taxonomies, and contextual analysis beyond bigrams, I still believe that a toll this simple will do 80-90% of the sifting through resumes for you. The rest can be added within another week.
 
 ## Reading in the Data
 
