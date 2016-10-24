@@ -10,17 +10,17 @@ Arabic is a really cool language. It is Semitic, which means that it is very clo
 
 The three-letter root
 
-ح-س-ن or ha-sa-na
+X--X3-Y or ha-sa-na
 
 is a very common root that is used to mean many related terms:
 
-حسن ('hasan') means 'good' or 'perfect'.
+X-X3Y ('hasan') means 'good' or 'perfect'.
 
-احسان ('ihsaan') is a spiritual term referring to 'beneficence' or 'charity', although I have also heard it indicate something along the lines of self-betterment.
+X'X-X3X'Y ('ihsaan') is a spiritual term referring to 'beneficence' or 'charity', although I have also heard it indicate something along the lines of self-betterment.
 
-حسنة ('hasna') is a 'good deed'.
+X-X3YX) ('hasna') is a 'good deed'.
 
-استحسان ('istihsaan') means 'approval' or 'consent'.
+X'X3X*X-X3X'Y ('istihsaan') means 'approval' or 'consent'.
 
 So as you can see, there is a common theme based around the root to indicate some form of positivity. On the surface, this seems potentially very convenient for Computational Linguistics or Natural Language Processing. Unfortunately, the devil is in the details with Arabic Language Processing and Understanding.
 
@@ -30,18 +30,18 @@ In Arabic stemming, generally the rule is to narrow each term down to its 3-lett
 
 Moreover, this example above is a nice one. The roots get more and more diverse in their allowable meanings, to the point where it is ridiculously frustrating for an Arabic language learner. Let me give you an example that I was able to find by literally randomly selecting a page in my Arabic dictionary:
 
-ط-ر-ح or ta-ra-ha (bear in mind these are really crass transliterations.)
+X7-X1-X- or ta-ra-ha (bear in mind these are really crass transliterations.)
 
-طرح ('tarh') means expulsion, banishment.
+X7X1X- ('tarh') means expulsion, banishment.
 
-طرحة ('tarha') is a veil worn by Arab women as a headcloth.
+X7X1X-X) ('tarha') is a veil worn by Arab women as a headcloth.
 
-اطروحة ('utruuha') is a disseration.
+X'X7X1YX-X) ('utruuha') is a disseration.
 
 I think you can catch my drift.
 
-I hate when people complain without offering solutions, so I'm going to try my best now to offer one. If this solution has already been implemented, I would love you, the reader, to contact me with information about it if possible.
+One solution that has been examined is the concept of _light stemming_. This means that just the basic peices at the beginning and end of an Arabic word that have an extremely high likelihood of being an unnecessary extension are removed, such as the definite article and the plural endings. In my opinion, this is potentially a very viable solution. I will provide below, however, an alternate solution that I believe is worth studying as well.
 
-So we have already covered the roots in Arabic, but there is a second component of a word: the form. There are 10 verb forms of each three-letter root, so a word has a form, a root, and a tense. The form can likely be identified with reasonable accuracy, and so the root plus the form can be the two features for each term. This added dimension would potentially complicate your algorithms, but it would also massively improve your results and predictive capabilities (I think). [This](http://arabic.desert-sky.net/g_vforms.html) is a great introduction to the different verb forms and what they *likely* indicate about the word's meaning. Even if the indication is off sometimes, from a mathematical perspective this would rarely matter. The root + form data for each term will separate out term frequencies for the different words, and this will in turn affect context analyses, etc. for your different types of analysis. The numbers will, in short, be better.
+So we have already developed methodologies to identify the roots in Arabic, but there is a second component of a word: the form. There are 10 verb forms of each three-letter root, so a word has a form, a root, and a tense. The form can likely be identified with reasonable accuracy, and so the root plus the form can be the two features for each term. This added dimension would potentially complicate your algorithms, but it would also massively improve your results and predictive capabilities (I think). [This](http://arabic.desert-sky.net/g_vforms.html) is a great introduction to the different verb forms and what they *likely* indicate about the word's meaning. Even if the indication is off sometimes, from a mathematical perspective this would rarely matter. The root + form data for each term will separate out term frequencies for the different words, and this will in turn affect context analyses, etc. for your different types of analysis. The numbers will, in short, be better.
 
 I would love to go ahead and work on this topic further on my own. I believe a lot of contributions have yet to be made to the field of Arabic Text Mining, and I hope to be a contributor to the topic.
