@@ -10,17 +10,17 @@ Arabic is a really cool language. It is Semitic, which means that it is very clo
 
 The three-letter root
 
-X--X3-Y or ha-sa-na
+ح-س-ن or ha-sa-na
 
 is a very common root that is used to mean many related terms:
 
-X-X3Y ('hasan') means 'good' or 'perfect'.
+حسن ('hasan') means 'good' or 'perfect'.
 
-X'X-X3X'Y ('ihsaan') is a spiritual term referring to 'beneficence' or 'charity', although I have also heard it indicate something along the lines of self-betterment.
+احسان ('ihsaan') is a spiritual term referring to 'beneficence' or 'charity', although I have also heard it indicate something along the lines of self-betterment.
 
-X-X3YX) ('hasna') is a 'good deed'.
+حسنة ('hasna') is a 'good deed'.
 
-X'X3X*X-X3X'Y ('istihsaan') means 'approval' or 'consent'.
+استحسان ('istihsaan') means 'approval' or 'consent'.
 
 So as you can see, there is a common theme based around the root to indicate some form of positivity. On the surface, this seems potentially very convenient for Computational Linguistics or Natural Language Processing. Unfortunately, the devil is in the details with Arabic Language Processing and Understanding.
 
@@ -30,13 +30,13 @@ In Arabic stemming, generally the rule is to narrow each term down to its 3-lett
 
 Moreover, this example above is a nice one. The roots get more and more diverse in their allowable meanings, to the point where it is ridiculously frustrating for an Arabic language learner. Let me give you an example that I was able to find by literally randomly selecting a page in my Arabic dictionary:
 
-X7-X1-X- or ta-ra-ha (bear in mind these are really crass transliterations.)
+ط-ر-ح or ta-ra-ha (bear in mind these are really crass transliterations.)
 
-X7X1X- ('tarh') means expulsion, banishment.
+طرح ('tarh') means expulsion, banishment.
 
-X7X1X-X) ('tarha') is a veil worn by Arab women as a headcloth.
+طرحة ('tarha') is a veil worn by Arab women as a headcloth.
 
-X'X7X1YX-X) ('utruuha') is a disseration.
+اطروحة ('utruuha') is a disseration.
 
 I think you can catch my drift.
 
