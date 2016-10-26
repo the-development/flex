@@ -8,6 +8,6 @@ categories: posts
 
 Email: cvint13@live.com
 
-Phone: (404) 977-9664
+Phone: (864) 313-1500
 
 [LinkedIn](https://www.linkedin.com/in/cynthia-vint968a1a63)
