@@ -3,7 +3,7 @@
   <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Flex - {{ page.title }}</title>
+      <title>Cynthia Vint - {{ page.title }}</title>
       <meta name="viewport" content="width=device-width">
 
       <!-- syntax highlighting CSS -->
@@ -24,25 +24,52 @@
       <div class="sidebar" id="sidebar">
         <div class="header">
           <h1 class="title"><a href="/"><img id="logo" src="/images/logo.png"></a></h1>
-          <span class="tagline">A responsive Jekyll theme</span>
+          <span class="tagline">Cynthia Vint: The Website</span>
         </div>
         <div class="posts">
-          <ul class="posts-list">
-            {% for post in site.posts %}
-              <li class="post-link">
-                <a class="post-title" href="{{ post.url }}">
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
-                  {{ post.title }}
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
+		  <ul class="posts-list">
+			{% assign pages_list = site.pages %}
+			{% for page in pages_list %}
+				{% if page.title == "About Me" %}
+					<li class="post-link">
+						<a class="post-title" href="{{ page.url | prepend: site.baseurl }}">
+						{{ page.title }}
+						</a>
+					</li>
+				{% endif %}	
+			{% endfor %}
+				
+			{% for page in pages_list %}
+				{% if page.title == "Professional Info" %}
+					<li class="post-link">
+						<a class="post-title" href="{{ page.url | prepend: site.baseurl }}">
+						{{ page.title }}
+						</a>
+					</li>
+				{% endif %}	
+			{% endfor %}
+			
+			{% for page in pages_list %}
+				{% if page.title == "Contact Me" %}
+					<li class="post-link">
+						<a class="post-title" href="{{ page.url | prepend: site.baseurl }}">
+						{{ page.title }}
+						</a>
+					</li>
+				{% endif %}	
+			{% endfor %}
+			
+			<li class="post-link">
+				<a class="post-title" href="{{ site.posts.first.url | prepend: site.baseurl }}">
+					Blog
+				</a>
+			</li>
+		  </ul>
         </div>
         <div class="footer">
           <span id="footer-links">
-            <a href="" class="footer-link">About</a> <span class="separator">&bull;</span>
-            <a href="" class="footer-link">Twitter</a> <span class="separator">&bull;</span>
-            <a href="" class="footer-link">GitHub</a>
+            <a href="https://cvint13.github.io" class="footer-link">About</a> <span class="separator">&bull;</span>
+            <a href="https://github.com/cvint13" class="footer-link">GitHub</a>
           </span>
         </div>
       </div>
